@@ -52,7 +52,7 @@ class _CategriesScreenState extends State<CategriesScreen>
       child: Padding(
         padding: const EdgeInsets.all(8),
         child: GridView(
-          scrollDirection: Axis.horizontal,
+          // scrollDirection: Axis.horizontal,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               childAspectRatio: 3 / 2,
